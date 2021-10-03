@@ -1,0 +1,61 @@
+.jumbotron-fluid{
+    text-align: center;
+    height: 129px;
+    background-color: #3c5a8d;
+}
+
+.sidenav{
+    background-color: #7e94df;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+}
+
+h1, h6 {
+    color:white;
+}
+
+#search{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+#searchBar{
+    padding-top: 8px;
+    margin: 6px;
+    width: 50%;
+}
+
+.btn-light{
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+
+#city{
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid black;
+    width: 80%;
+    float: right;
+}
+
+#forecast{
+    background-color: white;
+    width: 80%;
+    float: right;
+    padding-top: 10px;
+}
+
+.newCity{
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 90%
+}
+
+.card{
+    margin: 4px;
+}
