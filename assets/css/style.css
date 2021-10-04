@@ -37,10 +37,11 @@ h1, h6 {
 
 #city{
     margin-top: 30px;
-    background-color: white;
+    background-color:#3c5a8d;
     border: 1px solid black;
     width: 80%;
     float: right;
+    color:white;
 }
 
 #forecast{
