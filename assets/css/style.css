@@ -23,3 +23,15 @@ li:hover{
    background-color: lightslategray;
    text-decoration: underline;
 }
+
+.favorable {
+   background-color: green;
+}
+
+.moderate {
+   background-color: orange;
+}
+
+.severe {
+   background-color: red;
+}
