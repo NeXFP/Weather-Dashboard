@@ -76,6 +76,7 @@ function displayWeather(event){
     if(searchCity.val().trim()!==""){
         city=searchCity.val().trim();
         currentWeather(city);
+        $(searchCity).val("");
     }
 };
 //Ajax call to pull data from server side api
@@ -87,7 +88,6 @@ function UVIndex(ln,lt) {
         url: uvURL,
         method:"GET"
     }).then(function(response){
-        console.log(response.value);
         $(currentUvindex).html(response.value);
 
         $("#uv-index").each(function() {
